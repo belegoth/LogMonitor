@@ -26,6 +26,8 @@ namespace LogMonitor
                     offset = stream.Length;
 
                     return null;
+
+                    //dfdf
                 }
 
                 using (StreamReader reader = new StreamReader(stream))
